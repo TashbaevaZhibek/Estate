@@ -11,29 +11,401 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/index.min.css" />
   </head>
   <body>
     <header>
-      <nav class="menu">
-        <a href="#">
-          <img class="menu__logo" src="./SRC/IMG/LOGO.svg" alt="logo" />
-        </a>
+      <div class="container">
+        <nav class="menu">
+          <a href="#">
+            <img class="menu__logo" src="./IMG/logo.png" alt="logo" />
+          </a>
 
-        <ul class="menu__list">
-          <li class="menu__item">
-            <a class="menu__link" heaf="#">Listings</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" heaf="#">Newsroom</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" heaf="#">Contact</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" heaf="#">Our team</a>
-          </li>
-        </ul>
-      </nav>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" heaf="#">Listings</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" heaf="#">Newsroom</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" heaf="#">Contact</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" heaf="#">Our team</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__bg">
+          <div class="hero__wrapper">
+            <img class="hero__logo" src="./IMG/bg_logo.png" alt="logo" />
+            <h1 class="hero__title">We're here to help you find a new home.</h1>
+          </div>
+
+          <a class="hero__circle" href="#">
+            <img src="./IMG/Arrow.svg" alt="" />
+          </a>
+        </div>
+      </section>
+
+      <section class="listins">
+        <div class="container">
+          <div class="listings__wrapper">
+            <h2 class="title-orange">Our requirements</h2>
+            <h3 class="listings__title title">How we choose our listings.</h3>
+            <p class="subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              scelerisque aliquam odio et faucibus.
+            </p>
+          </div>
+          <div class="listings__box">
+            <img src="./IMG/listings_bg.png" alt="" />
+            <ul class="listings__list">
+              <li class="listings__item">
+                <div class="listings__bg-gray">
+                  <img class="icon" src="./IMG/listing_2.svg" alt="" />
+                </div>
+                <h2 class="listings__subtitle subtitle">Stellar locations</h2>
+                <p class="text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </li>
+              <li class="listings__item">
+                <div class="listings__bg-gray">
+                  <img class="icon2" src="./IMG/listings_3.svg" alt="" />
+                </div>
+
+                <h2 class="listings__subtitle subtitle">High quality builds</h2>
+                <p class="text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </li>
+              <li class="listings__item">
+                <div class="listings__bg-gray">
+                  <img class="icon3" src="./IMG/listings_4.svg" alt="" />
+                </div>
+
+                <h2 class="listings__subtitle subtitle">
+                  Expert interior design
+                </h2>
+                <p class="text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg">
+        <img width="100%" height="624px" src="IMG/bg_img.png" alt="" />
+      </section>
+      <section class="store">
+        <div class="container">
+          <div class="store__wrapper">
+            <h2 class="title-orange">Current listings</h2>
+            <h3 class="title">What we have in store for you.</h3>
+            <p class="subtitle">
+              Morbi neque ex, condimentum dapibus congue et, vulputate ut
+              ligula. Vestibulum sit amet urna turpis. Mauris euismod elit et
+              nisi ultrices, ut faucibus orci tincidunt.
+            </p>
+          </div>
+
+          <ul class="store__list">
+            <li class="store__item">
+              <img class="store__img" src="./IMG/store/foto_one.jpg" alt="" />
+
+              <div class="store__inner">
+                <h2>House</h2>
+                <h3>California St.</h3>
+
+                <ul class="store__inner-list">
+                  <li>
+                    <img src="./IMG/icon/icon_one.svg" alt="" />
+                    <p>
+                      <span>16</span>
+                      beds
+                    </p>
+                  </li>
+
+                  <li class="store__inner-item">
+                    <img src="./IMG/icon/icon_two.svg" alt="" />
+                    <p>
+                      <span>2</span>
+                      bathrooms
+                    </p>
+                  </li>
+
+                  <li class="store__inner-item">
+                    <img src="./IMG/icon/icon_three.svg" alt="" />
+                    <p>
+                      <span>11</span>
+                      rooms
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="store__item">
+              <img class="store__img" src="./IMG/store/villa.jpg" alt="" />
+
+              <div class="store__inner">
+                <h2>Villa</h2>
+                <h3>Welford Gardens</h3>
+
+                <ul class="store__inner-list">
+                  <li>
+                    <img src="./IMG/icon/icon_one.svg" alt="" />
+                    <p>
+                      <span>12</span>
+                      beds
+                    </p>
+                  </li>
+
+                  <li class="store__inner-item">
+                    <img src="./IMG/icon/icon_two.svg" alt="" />
+                    <p>
+                      <span>3</span>
+                      bathrooms
+                    </p>
+                  </li>
+
+                  <li class="store__inner-item">
+                    <img src="./IMG/icon/icon_three.svg" alt="" />
+                    <p>
+                      <span>16</span>
+                      rooms
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="store__item">
+              <img class="store__img" src="./IMG/store/foto_two.png" alt="" />
+
+              <div class="store__inner">
+                <h2>House</h2>
+                <h3>The Grove</h3>
+
+                <ul class="store__inner-list">
+                  <li>
+                    <img src="./IMG/icon/icon_one.svg" alt="" />
+                    <p>
+                      <span>12</span>
+                      beds
+                    </p>
+                  </li>
+
+                  <li class="store__inner-item">
+                    <img src="./IMG/icon/icon_two.svg" alt="" />
+                    <p>
+                      <span>2</span>
+                      bathrooms
+                    </p>
+                  </li>
+
+                  <li class="store__inner-item">
+                    <img src="./IMG/icon/icon_three.svg" alt="" />
+                    <p>
+                      <span>14</span>
+                      rooms
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="store__item">
+              <img class="store__img" src="./IMG/store/apartment.jpg" alt="" />
+
+              <div class="store__inner">
+                <h2>Apartment</h2>
+                <h3>Wallace St.</h3>
+
+                <ul class="store__inner-list">
+                  <li>
+                    <img src="./IMG/icon/icon_one.svg" alt="" />
+                    <p>
+                      <span>10</span>
+                      beds
+                    </p>
+                  </li>
+
+                  <li class="store__inner-item">
+                    <img src="./IMG/icon/icon_two.svg" alt="" />
+                    <p>
+                      <span>2</span>
+                      bathrooms
+                    </p>
+                  </li>
+
+                  <li class="store__inner-item">
+                    <img src="./IMG/icon/icon_three.svg" alt="" />
+                    <p>
+                      <span>8</span>
+                      rooms
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="store__item">
+              <img
+                class="store__img"
+                src="./IMG/store/apartment_two.jpg"
+                alt=""
+              />
+
+              <div class="store__inner">
+                <h2>Apartment</h2>
+                <h3>Dwight Way</h3>
+
+                <ul class="store__inner-list">
+                  <li>
+                    <img src="./IMG/icon/icon_one.svg" alt="" />
+                    <p>
+                      <span>8</span>
+                      beds
+                    </p>
+                  </li>
+
+                  <li class="store__inner-item">
+                    <img src="./IMG/icon/icon_two.svg" alt="" />
+                    <p>
+                      <span>1</span>
+                      bathrooms
+                    </p>
+                  </li>
+
+                  <li class="store__inner-item">
+                    <img src="./IMG/icon/icon_three.svg" alt="" />
+                    <p>
+                      <span>6</span>
+                      rooms
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="store__item">
+              <img class="store__img" src="./IMG/store/foto_three.png" alt="" />
+
+              <div class="store__inner">
+                <h2>House</h2>
+                <h3>North Avenue</h3>
+
+                <ul class="store__inner-list">
+                  <li>
+                    <img src="./IMG/icon/icon_one.svg" alt="" />
+                    <p>
+                      <span>14</span>
+                      beds
+                    </p>
+                  </li>
+
+                  <li class="store__inner-item">
+                    <img src="./IMG/icon/icon_two.svg" alt="" />
+                    <p>
+                      <span>3</span>
+                      bathrooms
+                    </p>
+                  </li>
+
+                  <li class="store__inner-item">
+                    <img src="./IMG/icon/icon_three.svg" alt="" />
+                    <p>
+                      <span>11</span>
+                      rooms
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <button class="store__btn show-btn">
+            Show all listings
+            <img src="./IMG/icon/arrow_right.svg" alt="" />
+          </button>
+        </div>
+      </section>
+
+      <section class="team">
+        <div class="container">
+          <div class="team__wrapper">
+            <div class="team__inner">
+              <h2 class="title-orange">Our people</h2>
+              <h3 class="title">
+                Meet our team of dedicated and talented agents.
+              </h3>
+              <p class="subtitle">
+                Morbi neque ex, condimentum dapibus congue et, vulputate ut
+                ligula. Vestibulum sit amet urna turpis. Mauris euismod elit et
+                nisi ultrices, ut faucibus orci tincidunt.
+              </p>
+              <button class="team__btn show-btn">
+                View our team
+                <img src="./IMG/icon/arrow_right.svg" alt="" />
+              </button>
+            </div>
+
+            <ul class="team__list">
+              <li class="team__item">
+                <img src="./IMG/teams/team-1.svg" alt="" />
+                <div>
+                  <h3>Ava Orn</h3>
+                  <p>Managing Broker</p>
+                </div>
+              </li>
+
+              <li class="team__item">
+                <img src="./IMG/teams/team-2.svg" alt="" />
+                <div>
+                  <h3>Ella Hessel</h3>
+                  <p>Agent</p>
+                </div>
+              </li>
+
+              <li class="team__item">
+                <img src="./IMG/teams/team-3.svg" alt="" />
+                <div>
+                  <h3>Daryl Gislason</h3>
+                  <p>REALTOR</p>
+                </div>
+              </li>
+
+              <li class="team__item">
+                <img src="./IMG/teams/team-4.svg" alt="" />
+                <div>
+                  <h3>David Sporer</h3>
+                  <p>Agent</p>
+                </div>
+              </li>
+
+              <li class="team__item">
+                <img src="./IMG/teams/team-5.svg" alt="" />
+                <div>
+                  <h3>Trevor Torphy</h3>
+                  <p>Agent</p>
+                </div>
+              </li>
+
+              <li class="team__item">
+                <img src="./IMG/teams/team-6.svg" alt="" />
+                <div>
+                  <h3>Amanda Giovanni</h3>
+                  <p>REALTOR</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

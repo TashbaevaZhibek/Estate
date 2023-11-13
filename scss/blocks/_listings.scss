@@ -1,0 +1,35 @@
+.listings {
+  &__box {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    align-items: center;
+    margin-top: 30px;
+  }
+  &__item {
+    border-radius: 10px;
+    border: 1px solid rgba(202, 204, 209, 0.2);
+    background: #fafafc;
+    width: 300px;
+    height: 167px;
+    padding: 21px;
+  }
+  &__bg-gray {
+    width: 48px;
+    height: 48px;
+    background: #45525b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 9px;
+    gap: 20px;
+  }
+  &__subtitle {
+    text-align: left;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

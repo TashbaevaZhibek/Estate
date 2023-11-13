@@ -1,0 +1,16 @@
+.team {
+  &__wrapper {
+    width: 380px;
+    text-align-last: left;
+    margin-bottom: 16px;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__item {
+    width: 80px;
+    text-align: right;
+  }
+}

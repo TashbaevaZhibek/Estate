@@ -1,0 +1,37 @@
+.hero {
+  background-image: url("../IMG/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__bg {
+    padding-top: 223px;
+    padding-bottom: 52px;
+    background-color: rgba(250, 250, 252, 0.78);
+  }
+  &__circle {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 2px solid #3a4443;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 165px;
+  }
+  &__title {
+    color: #45525b;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36.8px; /* 126.897% */
+  }
+  &__wrapper {
+    text-align: center;
+    width: 408px;
+    margin: 0 auto;
+  }
+}
